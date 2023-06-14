@@ -8,13 +8,13 @@ function Sidebar(props) {
 
   return (
     <div className={`sidebar`}>
-        <div
-          className="sidebar-1"
-          // style={{
-          //   backgroundImage: `url("../assets/${userId}.jpg")`,
-          // }}
-        ></div>
-        <div className="sidebar-info">
+      <div
+        className="sidebar-1"
+        // style={{
+        //   backgroundImage: `url("../assets/${userId}.jpg")`,
+        // }}
+      ></div>
+      <div className="sidebar-info">
         <div className="sidebar-2">
           <h1 className="name">{username}</h1>
         </div>
@@ -24,7 +24,7 @@ function Sidebar(props) {
         </div>
 
         <div className="sidebar-5"></div>
-        </div>
+      </div>
     </div>
   );
 }
