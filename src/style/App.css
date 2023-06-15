@@ -18,11 +18,12 @@ html {
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 20px;
   color: #fff;
-  overflow:hidden;
+  overflow-y:hidden;
+  height:100dvh;
 }
 
 body {
-  height:100vh;
+  height:auto;
   background-color: black;
 }
 
@@ -37,11 +38,12 @@ overflow-x:hidden;
 @media screen and (orientation:portrait){
   .App{
     
-    width:200vw;
+    width:100vw;
   }
 }
 /* width */
 ::-webkit-scrollbar {
+  display:none;
   width: 7px;
 }
 

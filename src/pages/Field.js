@@ -133,8 +133,9 @@ function Field() {
 
   return (
     <div className="App">
+      <Sidebar id={userId} username={username} userRig={userRig} />
       <div className="field_container">
-        <Sidebar id={userId} username={username} userRig={userRig} />
+        <div className="side-scroll">
 
         <div className="field-checklist-container">
           <div className="checklist-item-container">
@@ -211,11 +212,12 @@ function Field() {
             </form>
           </FieldModal>
         </div>
+        </div>
 
-        <div className="bottom-Bar">
+      </div>
+      <div className="bottom-Bar">
           <h4 className="welcome">{Date()}</h4>
         </div>
-      </div>
     </div>
   );
 }

@@ -55,6 +55,7 @@
 
     .sidebar {
       position:absolute;
+      background-color:pink;
       top:0;
       left:0;
       display:flex;

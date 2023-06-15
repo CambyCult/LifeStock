@@ -1,7 +1,7 @@
 .modal-main {
   overflow-y:auto;
   height:auto;
-  min-height:93%;
+  min-height:75%;
   width:250px;
   background-color: var(--background-color-dark);
   border-radius:5px;
@@ -12,6 +12,7 @@
   flex-direction:column;
   align-items:center;
   justify-content: flex-start;
+  padding-top:10vh;
 }
 .modal-main p {
   padding: 2px 5px 2px 5px;
